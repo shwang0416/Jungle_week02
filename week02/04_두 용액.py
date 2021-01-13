@@ -5,7 +5,7 @@
 
 import sys
 
-sys.stdin = open('week02\\수정\\text\\04.txt', 'r')
+sys.stdin = open('week02/수정/text/04.txt', 'r')
 
 N = int(input())
 P = list(map(int, sys.stdin.readline().split()))
